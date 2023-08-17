@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_feed"
+        android:icon="@drawable/feeds"
+        android:title="@string/feeds_nav"></item>
+    <item
+        android:id="@+id/nav_liked"
+        android:icon="@drawable/liked"
+        android:title="@string/liked_items_nav"></item>
+    <item
+        android:id="@+id/nav_orders"
+        android:icon="@drawable/my_order"
+        android:title="@string/my_orders_nav">
+       </item>
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/cart"
+        android:title="Cart">
+    </item>
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "762482773167",
+    "firebase_url": "https://interior-reflections.firebaseio.com",
+    "project_id": "interior-reflections",
+    "storage_bucket": "interior-reflections.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762482773167:android:344d78ee2b7502ca74185a",
+        "android_client_info": {
+          "package_name": "com.ir.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762482773167-cul7sm8egqip9s6p9o9onsuprfggcatq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ3WgrHycAKsanpm--0Bee57S2yj54SXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762482773167-cul7sm8egqip9s6p9o9onsuprfggcatq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

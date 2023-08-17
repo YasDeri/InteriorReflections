@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Fragments.Customer.LikedFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:id="@+id/liked_text"
+        android:textColor="@color/white"
+        android:padding="@dimen/twenty"
+        android:textSize="@dimen/textSize_thirty"
+        android:layout_marginBottom="20dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="45dp">
+        <ImageView
+            android:id="@+id/imgitem"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="200dp"
+            android:src="@drawable/bed1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemNameTxt"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:textSize="23dp"
+            android:textColor="@color/white"
+            android:text="Bed 1"
+            android:background="#35FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemPriceTxt"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:textSize="23dp"
+            android:textColor="@color/white"
+            android:text="Price: 100 Rs."
+            android:background="#35FFFFFF"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/addToCart"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:backgroundTint="@color/lightGreen"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/white"
+                android:layout_marginBottom="5dp"
+                android:text="Add to Cart" />
+
+
+            <Button
+                android:id="@+id/addToWishlist"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="4dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:backgroundTint="@color/lightGreen"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/white"
+                android:text="Add to Wishlist" />
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/view3D"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="0dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:backgroundTint="@color/lightGreen"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/white"
+            android:text="LIVE VIEW" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

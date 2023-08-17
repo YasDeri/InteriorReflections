@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.service"
+    >
+    <application
+        >
+        <service
+            android:name=".FavoriteService">
+
+        </service>
+    </application>
+</manifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    <item-->
+    <!--        android:id="@+id/nav_items"-->
+    <!--        android:title="Items"></item>-->
+
+    <item
+        android:id="@+id/nav_customers"
+        android:icon="@drawable/my_order"
+        android:title="Customers"></item>
+    <item
+        android:id="@+id/nav_vendors"
+        android:icon="@drawable/feeds"
+        android:title="Vendors"></item>
+    <item
+        android:id="@+id/nav_admins"
+        android:icon="@drawable/my_order"
+        android:title="Admins"></item>
+
+</menu>

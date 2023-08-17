@@ -1,0 +1,48 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.Customer.FeedFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/text_rv_feeds"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:textSize="15sp"
+        android:text="@string/furniture_feedrv"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/white">
+    </TextView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_six"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="15dp"
+        android:id="@+id/cv_feeds_mid"
+        android:layout_margin="@dimen/six"
+        app:layout_constraintTop_toBottomOf="@+id/text_rv_feeds"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/feeds_rv"
+        android:layout_margin="@dimen/ten"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_rv_feeds"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

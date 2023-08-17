@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".Fragments.Customer.LikedFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Items"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:id="@+id/liked_text"
+        android:textColor="@color/white"
+        android:padding="@dimen/twenty"
+        android:textSize="@dimen/textSize_thirty"
+        android:layout_marginBottom="20dp">
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ten"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:text="Item Name"
+        />
+
+    <EditText
+        android:id="@+id/edit_name_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="85dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:inputType="textShortMessage"
+        android:background="@drawable/rounded_crs"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ten"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:text="Price"
+        />
+
+    <EditText
+        android:id="@+id/edit_price_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="85dp"
+        android:inputType="textShortMessage"
+        android:padding="5dp"
+        android:gravity="center"
+        android:background="@drawable/rounded_crs"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ten"
+        android:textColor="@color/white"
+        android:text="Category"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/edit_category_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="85dp"
+        android:inputType="textShortMessage"
+        android:background="@drawable/rounded_crs"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:padding="5dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/preview"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginVertical="@dimen/ten"
+        android:src="@drawable/bed1"
+        android:layout_gravity="center"
+        />
+
+
+
+    <Button
+        android:id="@+id/browse_img"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginVertical="@dimen/ten"
+        android:text="Upload Image"
+        android:textSize="10dp"
+        android:layout_marginHorizontal="120dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:backgroundTint="#FF6347"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/browse_3d_model"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Upload 3D Object"
+        android:layout_marginHorizontal="120dp"
+        android:textSize="10dp"
+
+        android:background="@drawable/button_bg_rounded_corners"
+        android:backgroundTint="#FF6347"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/create_item"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginVertical="@dimen/ten"
+        android:text="Add Item"
+        android:layout_marginHorizontal="80dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:backgroundTint="@color/lightGreen"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
